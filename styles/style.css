@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container__menu {
+    color: #FFFFFF;
+    background: url(../assets/background.svg);
+}
+
+.logo {
+    width: 8%;
+    height: auto;
+    margin: 25px 0 0 30px;
+}
+
+.titulo__menu {
+    margin: 50px 0 0 90px;
+}
+
+.titulo__texto {
+    margin: 35px 0 0 90px;
+    padding-bottom: 50px;
+}
+
+.container__menu-institucional {
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAECE5;
+    padding: 25px 90px;
+}
+
+.texto__menu-institucional {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    gap: 5px;
+}
+
+.icone {
+    width: 20px;
+}

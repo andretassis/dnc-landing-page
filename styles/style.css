@@ -34,10 +34,26 @@
 .texto__menu-institucional {
     display: flex;
     align-items: center;
-    font-size: 10px;
+    font-size: 14px;
     gap: 5px;
 }
 
 .icone {
     width: 20px;
+}
+
+.container__video {
+    display: flex;
+    align-items: center;
+    margin: 50px 50px 50px 90px;
+    gap: 50px;
+}
+
+.video__titulo {
+    color: #247BA0;
+    font-size: 26px;
+}
+
+.video__texto { 
+    color: #383838;
 }

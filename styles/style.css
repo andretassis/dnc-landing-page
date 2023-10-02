@@ -57,3 +57,39 @@
 .video__texto { 
     color: #383838;
 }
+
+.carrossel {
+    padding: 50px 25px;
+    background-color: #247BA0;
+}
+
+.carrossel h3 {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.carrossel-imagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card {
+    margin-top: 25px;
+    max-width: 40%;
+
+}
+
+.seta {
+    max-width: 5%;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-2px);
+    transition: 0.2s;
+}
+
+.oculto {
+    display: none;
+}
